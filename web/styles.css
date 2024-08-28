@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2);
+    background-image: url('https://www.transparenttextures.com/patterns/brick-wall.png');
+    background-blend-mode: overlay;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #333;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: 4px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ text-decoration: none;
+}
+
+.gallery a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0.3, 0.3, 0.3, 0.3);
+
+}
+
+.gallery img {
+    display: block;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.gallery-description {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.gallery-introduction {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
